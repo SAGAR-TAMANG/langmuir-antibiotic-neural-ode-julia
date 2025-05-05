@@ -1,5 +1,12 @@
 # Langmuir-Antibiotic Neural ODE (Julia)
 
+
+The Langmuir adsorption model is described by the following differential equation:
+
+$$
+\frac{dq}{dt} = k_a \cdot C \cdot (Q_m - q) - k_d \cdot q
+$$
+
 <p align="center">
   <img src="assets/trajectory_comparison.png"  alt="Trajectory (early)" width="40%">
   <img src="assets/trajectory_comparison_2.png" alt="Trajectory (final)" width="40%">
